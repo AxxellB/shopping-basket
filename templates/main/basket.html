@@ -1,0 +1,21 @@
+{% extends '../base/base.html' %}
+{% block content %}
+<h1 class="text-center">Shopping Basket</h1>
+<div class="container text-end">
+<div id="basket-container" class="container text-center row-cols-1">
+    <table class="table-primary">
+        <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Price</th>
+              <th scope="col">Quantity</th>
+            </tr>
+          </thead>
+          <tbody id="basket">
+
+          </tbody>
+    </table>
+</div>
+<button type="button" id="basket-checkout" class="btn btn-primary col-2">Checkout</button>
+</div>
+{% endblock %}
